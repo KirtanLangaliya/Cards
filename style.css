@@ -30,18 +30,34 @@
     background-color: chartreuse;
 
 }
-#card2{
+#card2 {
     z-index:3;
-    transform: translate(-50%,-50%) rotate(-10deg);
+    transform: translate(-50%,-50%) rotate(-12deg);
+    
     
 }
 #card3{
     z-index: 2;
-    transform: translate(-50%,-50%) rotate(-15deg);
+    transform: translate(-50%,-50%) rotate(-19deg);
     
 }
 #card4{
     z-index: 1;
-    transform: translate(-50%,-50%) rotate(-23deg);
+    transform: translate(-50%,-50%) rotate(-25deg);
    
+}
+#card2:hover{
+    z-index: 10;
+}
+#card3:hover{
+    z-index: 10;
+}
+#card4:hover{
+    z-index: 10;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    border-radius:  20px;
 }
