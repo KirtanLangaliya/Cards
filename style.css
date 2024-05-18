@@ -24,12 +24,24 @@
     background-color: chartreuse;
     border-radius:  20px; 
 }
+#card1{
+    z-index: 4;
+    transform: translate(-50%,-50%);
+    background-color: chartreuse;
+
+}
 #card2{
-    rotate:-10deg;
+    z-index:3;
+    transform: translate(-50%,-50%) rotate(-10deg);
+    
 }
 #card3{
-    rotate:-15deg;
+    z-index: 2;
+    transform: translate(-50%,-50%) rotate(-15deg);
+    
 }
 #card4{
-    rotate:-23deg;
+    z-index: 1;
+    transform: translate(-50%,-50%) rotate(-23deg);
+   
 }
